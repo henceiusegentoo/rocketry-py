@@ -1,4 +1,4 @@
-from constants import G, mE, rE
+from rocketry_py.universal.constants import G, mE, rE
 from numpy import float64
 
 def newtonian_gravity(m1: float64, m2: float64, r: float64) -> float64:
